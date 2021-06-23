@@ -1,25 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Component from  './profie/Component.js';
+import picture from './picture.gif';
+    const App = () => {
+      const alertMyInput = button => alert(button);
+      return (
+        <div>
+       
+                <Component fullname="Toumi Yassine is a React Developer also Adaptive ,Creatif and Hard Worker"
+                 alertMyInput={alertMyInput} 
+                
+                 version='16'/>
+   < img src={picture} alt="profil image" />
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+     
+      </div>
+     );
+  
+      }
 
 export default App;
