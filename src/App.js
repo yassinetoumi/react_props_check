@@ -7,12 +7,10 @@ import picture from './picture.gif';
         <div>
        
                 <Component fullname="Toumi Yassine is a React Developer also Adaptive ,Creatif and Hard Worker"
-                 alertMyInput={alertMyInput} 
-                
-                 version='16'/>
-   < img src={picture} alt="profil image" />
+                 alertMyInput={alertMyInput}version='16'>
+   <Component > < img src={picture} alt="profil image" /> </Component >
 
-     
+   </Component >
       </div>
      );
   

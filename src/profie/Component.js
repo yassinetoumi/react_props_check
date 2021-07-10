@@ -13,7 +13,7 @@ const Component = props =>{
      ) : (
        <h1> we need that props</h1>
      )}
-        <h2> {props.children}</h2>
+        <h2>   {props.children}</h2>
         <button onClick={() => props.alertMyInput(`Here is Toumi Yassine`)}>
           ClickMe
         </button>
